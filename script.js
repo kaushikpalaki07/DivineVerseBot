@@ -17,7 +17,7 @@ form.addEventListener('submit', function(e) {
   // Display bot response (mock for now)
   const botMsg = document.createElement('div');
   botMsg.classList.add('bot-message');
-  botMsg.textContent = 'This is a sample answer from Krishna Gita inspired.';
+  botMsg.textContent = 'This is a sample answer from Krishna.';
   chatBox.appendChild(botMsg);
 
   input.value = '';
